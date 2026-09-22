@@ -1,0 +1,104 @@
+button {
+  width: 20%;
+  margin: 0.42%;
+}
+
+div {
+  width: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+section {
+  width: auto;
+  display: flex;
+  box-sizing: border-box;
+}
+
+table {
+  table-layout: fixed;
+  font-size: 75%;
+  max-width: 100%;
+}
+
+tbody {
+  overflow: scroll;
+  overflow-x: hidden;
+  display: block;
+  width: 100%;
+  max-height: 92px;
+}
+
+td {
+  overflow-wrap: break-word;
+  text-align: center;
+  vertical-align: middle;
+}
+
+thead {
+  display: table;
+  width: 100%;
+}
+
+section textarea {
+  width: 90%;
+}
+
+td input {
+  width: 90%
+}
+
+#charId div {
+  margin: 0.5%;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.coin-input {
+  width: 3rem;
+  text-align: center;
+}
+
+.col {
+  display: flex;
+}
+
+.col-half {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.equip-sub {
+  min-width: 0;
+  width: 99%;
+  border: 1px solid;
+  margin: 0.84% 0%;
+  padding: 0.42%;
+}
+
+.section-border {
+  border: 1px solid;
+  margin: 0.42%;
+  padding: 0.42%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.third-input {
+  width: 12rem;
+}

@@ -1,0 +1,25 @@
+.stat-block {
+    min-width: 0;
+    box-sizing: border-box;
+    margin: 0.42%;
+    padding: 0.42%;
+    border: 1px solid;
+}
+
+.stat-block ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stat-input {
+    width: 85%;
+}
+
+.stat-score {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.1rem 1.75rem;
+    text-align: center;
+    font-size: 30px;
+}
