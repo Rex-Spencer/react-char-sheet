@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router';
+import Navbar from './components/Navbar'
+import Spells from './components/Spells';
 import Stat from './components/Stat'
 import stats from './utils/stats'
 import './App.css'
@@ -59,6 +62,13 @@ function App() {
 
   return (
     <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<App />} />
+          <Route path='/spells' element={<Spells />} />
+        </Routes>
+      </BrowserRouter>
       <section id="charId" className='section-border'>
         <div>
           <label>Name:&nbsp;</label>
