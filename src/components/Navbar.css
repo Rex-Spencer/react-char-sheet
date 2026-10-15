@@ -1,0 +1,19 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+    border: 1px solid;
+    margin: 0.42%;
+    padding: 0.5rem 1rem;
+}
+
+.main-nav {
+  position: sticky;
+  top: 0;
+  background-color: #16171D;
+  z-index: 1000;
+}
